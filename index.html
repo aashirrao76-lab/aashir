@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movies Page 1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">🔥 Dark Movies</div>
+<div class="container">
+<script>
+for(let i=1;i<=18;i++){
+document.write(`
+<div class="movie">
+<img src="https://picsum.photos/300/400?random=${i}">
+<h3>Movie ${i}</h3>
+<a href="https://www.imdb.com" target="_blank">▶ Watch</a>
+</div>
+`);
+}
+</script>
+</div>
+<div class="pagination">
+<a href="page2.html">Next ➡</a>
+</div>
+</body>
+</html>
